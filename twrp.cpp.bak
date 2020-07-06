@@ -423,7 +423,6 @@ int main(int argc, char **argv) {
 	else
 		TWFunc::tw_reboot(rb_system);
 
-	printf("ooook");
 	return 0;
 }
 
