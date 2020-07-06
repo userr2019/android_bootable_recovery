@@ -115,7 +115,7 @@ int main(int argc, char **argv) {
 
 	// Load default values to set DataManager constants and handle ifdefs
 	DataManager::SetDefaultValues();
-	printf("Starting the UI...\n");
+	printf("oooooook_Starting the UI...\n");
 	gui_init();
 	printf("=> Linking mtab\n");
 	symlink("/proc/mounts", "/etc/mtab");
@@ -423,7 +423,6 @@ int main(int argc, char **argv) {
 	else
 		TWFunc::tw_reboot(rb_system);
 
-	printf("ooook");
 	return 0;
 }
 
